@@ -1,5 +1,5 @@
-from src.vacancies_getter import HHJobs
 from src.file_saver import JsonSaver
+from src.vacancies_getter import HHJobs
 
 
 def main() -> None:

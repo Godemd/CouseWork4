@@ -1,5 +1,6 @@
 import json
 from abc import ABC, abstractmethod
+
 import requests
 
 from config import AREAS_PATH
