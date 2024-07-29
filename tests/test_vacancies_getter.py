@@ -1,5 +1,6 @@
-from src.vacancies_getter import HHJobs
 from unittest.mock import patch
+
+from src.vacancies_getter import HHJobs
 from src.vacancy import Vacancy
 
 
@@ -34,10 +35,7 @@ def test_raw_data(mock_get):
                         "color": None,
                         "gradient": {
                             "angle": 45,
-                            "color_list": [
-                                {"color": "#FF0000", "position": 10},
-                                {"color": "#FA0000", "position": 9}
-                            ],
+                            "color_list": [{"color": "#FF0000", "position": 10}, {"color": "#FA0000", "position": 9}],
                         },
                     },
                     "logo": "https://hhcdn.ru/00001.png",
@@ -141,10 +139,7 @@ def test_raw_data(mock_get):
                     "color": None,
                     "gradient": {
                         "angle": 45,
-                        "color_list": [
-                            {"color": "#FF0000", "position": 10},
-                            {"color": "#FA0000", "position": 9}
-                        ],
+                        "color_list": [{"color": "#FF0000", "position": 10}, {"color": "#FA0000", "position": 9}],
                     },
                 },
                 "logo": "https://hhcdn.ru/00001.png",
